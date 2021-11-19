@@ -1,0 +1,28 @@
+1. Faça um programa que receba três números inteiros e mostre o maior.deles. Considere
+que os números sempre serão diferentes.
+
+2. A empresa XKW concedeu um bônus de 20% do valor do salário a todos os
+funcionários com tempo de trabalho na empresa igual ou superior a 5 anos e de 10% aos
+demais.
+Faça um programa que receba o salário e o tempo de serviço de um funcionário, calcule e
+mostre o valor do bônus recebido por ele.
+
+3. Implemente um código para aprovar empréstimo bancário. O código deve pedir 3
+informações: valor do empréstimo, número de parcelas e salário do solicitante. Aprovar
+empréstimo caso o valor das parcelas representem no máximo 30% do salário do
+solicitante.
+
+4. Faça um programa que receba um número inteiro qualquer e mostre se ele é par ou
+impar.
+
+5. Faça um programa que solicita ao usuário três valores correspondentes aos lados de
+um triângulo. Informe se o triângulo é eqüilátero (possui 3 lados iguais), isósceles (possui
+dois lados iguais) ou escaleno (não possui lados iguais).
+
+6. Faça um Programa que leia três números e mostre-os em ordem decrescente.
+
+7. Faça um programa que pergunte o preço de três produtos e informe qual produto
+você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+
+8. Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-
+Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido. 

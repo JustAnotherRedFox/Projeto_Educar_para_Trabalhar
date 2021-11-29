@@ -1,29 +1,30 @@
 #cadastro de cliente, listagem de cliente, deletar cliente, buscar cliente
-from cliente import Cliente
 
-class ClientesDB():
+
+class ClientesDB:
     #construtor
-    def __init__(self, Id, nome, cpf):
+    def __init__(self):
 
-        self.__id = Id
-        self.__nome = nome
+        #self.__id = Id
+        #self.__nome = nome
         #self.__email = email 
         #self.__telefone = telefone
         #self.__endereco = endereco
         #self.__nascimento = nascimento
         #self.__genero = genero
-        self.__cpf = cpf
+        #self.__cpf = cpf
     
     
-        #dicionario
-        self.nomes = {self.__id: self.__nome}
+        #DICIONARIO
+        self.nomes = {}
         #self.email = {}
         #self.telefone = {}
         #self.endereco = {}
         #self.nascimento = {}
         #self.genero = {}
-        self.cpf = {self.__id, self.__cpf}
+        self.cpf = {}
 
+    #INSERSAO DE DADOS
     def inserir(self, Id, nome, cpf):
         self.nomes.update({Id: nome})
         #self.email.update({Id: email})
@@ -33,15 +34,15 @@ class ClientesDB():
         #self.genero.update({Id: genero})
         self.cpf.update({Id: cpf})
         
-    
+    #LISTAGEM DE CLIENTES
     def listar_clientes(self):
-        for Id, nome in self.nomes.items():
-            print(f"id: {str(Id)}")
-            print(f"nome: {str(nome)}")
+        for Id in self.nomes.items():
+            print(f"ID: {str(Id)}")
+            print(f"nome: {self.nomes.get(Id)}")
             print(f"cpf: {self.cpf.get(Id)}")
             print(f"quantidade cadastrada: {len(self.nomes)}")
         
-
+    #EXCLUSAO DE DADOS
     def deletar(self, Id):
         del self.nomes[Id]
         #del self.email[Id]
@@ -51,17 +52,18 @@ class ClientesDB():
         #del self.genero[Id]
         del self.cpf[Id]
 
+    #BUSCA DE DADOS
     def buscar(self, Id):
         print(f"ID: {Id}")
-        print(f"nome: {self.nomes[Id]}")
-        #print(f"email: {self.email[Id]}")
-        #print(f"telefone: {self.telefone[Id]}")
-        #print(f"endereco: {self.endereco[Id]}")
-        #print(f"nascimento: {self.nascimento[Id]}")
-        #print(f"genero: {self.genero[Id]}")
-        print(f"CPF: {self.cpf[Id]}")
+        print(f"nome: {self.nomes.get(Id)}")
+        #print(f"email: {self.email.get(Id)}")
+        #print(f"telefone: {self.telefone.get(Id)}")
+        #print(f"endereco: {self.endereco.get(Id)}")
+        #print(f"nascimento: {self.nascimento.get(Id)}")
+        #print(f"genero: {self.genero.get(Id)}")
+        print(f"CPF: {self.cpf.get(Id)}")
     
 
-#instanciando o objeto
-#rafael = Cliente(1, 'Rafael', 'rafael@gmail.com', '(71)900001111', 'rua fernado queiros', '20/12/1966', 'M', '123312434')
+#EXEMPLO DE DADO
+#cadastro = Cliente(1, 'Rafael', 'rafael@gmail.com', '(71)900001111', 'rua fernado queiros', '20/12/1966', 'M', '123312434')
 

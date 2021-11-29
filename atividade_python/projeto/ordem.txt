@@ -1,0 +1,10 @@
+Marcos, proprietário de uma microempresa no ramo de distribuição de alimentos, detectou demora excessiva na finalização de uma venda, devido à falta de uma estrutura rápida e funcional para armazenamento, processamento e consulta de informações dos clientes. O sistema utilizado na empresa é um fichário composto por arquivos de papel preenchidos à caneta e guardados em armários de metal, suscetíveis à mofo e ação do tempo. Ciente da necessidade de automatizar os serviços de acesso às informações dos clientes, Marcos contatou uma empresa de desenvolvimento de sistemas para a elaboração de um projeto de implementação de um software que suprisse a referida necessidade.
+
+menu:
+Cadastro de Clientes
+ 
+1. Cadastrar clinte
+2. Listar clientes
+3. Deletar cliente
+4. Buscar cliente
+5. Sair

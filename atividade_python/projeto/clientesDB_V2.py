@@ -1,7 +1,8 @@
 #cadastro de cliente, listagem de cliente, deletar cliente, buscar cliente
+from time import sleep
 
 
-class ClientesDB:
+class ClientesDB_V2:
     #construtor
     def __init__(self):
 
@@ -25,31 +26,73 @@ class ClientesDB:
         #self.genero = {}
         self.cpf = {}
 
+    #CADASTRO DE CLIENTE
+    def cadastrar(Id):
+        
+        #try:
+        print('\n' + '-'*50)
+        Id += 1
+        nome = input("digite o nome: ").strip().capitalize()
+        #email = input("digite o email: ").strip()
+        #telefone = input("digite o telefone: ").strip()
+        #endereco = input("digite o endereco: ").strip().capitalize()
+        #nascimento = input("digite a data de nascimento[dd/mm/aa]: ").strip()
+        #genero = input("digite o genero[M/F: ")[0].strip().upper()
+        cpf = input("digite o cpf: ").strip()
+
+        cadastro_data = [nome, cpf]
+
+        cadastro = ClientesDB_V2()
+        #cadastro.inserir(cadastro_data)
+        cadastro.inserir(str(Id), nome, cpf)
+        #cadastro.inserir(str(Id), nome, email, telefone, endereco, nascimento, genero, cpf)
+        #except:
+        print('[ERROR], porfavor tente novamente')
+
+        print('\nCadastro realizado com sucesso')
+        print('-'*50)
+        return Id, cadastro
+        
+
+    def listar(cadastro):
+        
+        
+        try:
+            print('\n' + '-'*50)
+            cadastro.listar_clientes()
+        except:
+            print("cadastro nao encontrado.\nID incorreto ou inesistente")
+        
+        print('-'*50)
+
+
+
     #INSERSAO DE DADOS
-    def inserir(self, cadastro_data):
-        self.clientes.append(cadastro_data)
-        print(self.clientes)
-        #self.nomes.update({Id: nome})
+    def inserir(self, Id, nome, cpf):
+        #self.clientes.append(cadastro_data)
+        
+        self.nomes.update({Id: nome})
         #self.email.update({Id: email})
         #self.telefone.update({Id: telefone})
         #self.endereco.update({Id:endereco})
         #self.nascimento.update({Id: nascimento})
         #self.genero.update({Id: genero})
-        #self.cpf.update({Id: cpf})
+        self.cpf.update({Id: cpf})
         
     #LISTAGEM DE CLIENTES
+    '''
     def listar_clientes(self):
         for item in self.clientes:
             print(f"nome: {item[0]}")
             print(f"cpf: {item[1]}")
-            print(len(self.clientes))
-        pass
-    '''def listar_clientes(self):
+            print(len(self.clientes))'''
+        
+    def listar_clientes(self):
         for Id in self.nomes.items():
             print(f"ID: {str(Id)}")
             print(f"nome: {self.nomes.get(Id)}")
             print(f"cpf: {self.cpf.get(Id)}")
-            print(f"quantidade cadastrada: {len(self.nomes)}")'''
+            print(f"quantidade cadastrada: {len(self.nomes)}")
         
     #EXCLUSAO DE DADOS
     def deletar(self, Id):

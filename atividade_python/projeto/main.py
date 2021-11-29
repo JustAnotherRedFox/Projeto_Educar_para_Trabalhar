@@ -1,5 +1,6 @@
 from time import sleep
 from clientesDB import ClientesDB
+from clientesDB_V2 import ClientesDB_V2
 
 Id = 0
 
@@ -27,15 +28,24 @@ while True:
     else:
         #CADASTRAR CLIENTE
         if menu == 'C':
+            ClientesDB_V2.cadastrar(Id)
+            '''
             try:
                 print('\n' + '-'*50)
+                #Id += 1
                 nome = input("digite o nome: ").strip().capitalize()
-                Id += 1
-                #Id = int(input("digite a ID: "))
+                #email = input("digite o email: ").strip()
+                #telefone = input("digite o telefone: ").strip()
+                #endereco = input("digite o endereco: ").strip().capitalize()
+                #nascimento = input("digite a data de nascimento[dd/mm/aa]: ").strip()
+                #genero = input("digite o genero[M/F: ")[0].strip().upper()
                 cpf = input("digite o cpf: ").strip()
 
+                cadastro_data = [nome, cpf]
+
                 cadastro = ClientesDB()
-                cadastro.inserir(str(Id), nome, cpf)
+                cadastro.inserir(cadastro_data)
+                #cadastro.inserir(str(Id), nome, email, telefone, endereco, nascimento, genero, cpf)
             except:
                 print('[ERROR], porfavor tente novamente')
 
@@ -51,7 +61,11 @@ while True:
             except:
                 print("cadastro nao encontrado.\nID incorreto ou inesistente")
             
-            print('-'*50)
+            print('-'*50)'''
+
+        elif menu == 'L':
+            cadastro = ClientesDB_V2()
+            cadastro.listar_clientes()
 
         #DELETAR CADASTROS
         elif menu == 'D':

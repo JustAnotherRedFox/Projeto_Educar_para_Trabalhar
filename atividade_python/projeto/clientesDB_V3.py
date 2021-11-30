@@ -1,19 +1,14 @@
 #cadastro de cliente, listagem de cliente, deletar cliente, buscar cliente
 from time import sleep
 
-
-
 #DICIONARIO
 clientes = []
-nomes_dic = {}
-
-
 
 #MENU
 def menu():
     while True:
 
-        print("================ cadastro ===================")
+        print("{:=^50}".format(' Menu Inicial '))
         menu = input('''
             [C].Cadastrar Cliente
             [L].Listar Clientes
@@ -43,7 +38,7 @@ def menu():
             elif menu == 'D':
                 try:
                     print('\n' + '-'*50)
-                    del_Id = input("digite o ID a qual deseja deletar: ")
+                    del_Id = int(input("digite o ID a qual deseja deletar: "))
                     confirm = input("Tem certeza? Esta acao nao podera ser Desfeita![S/N]: ")[0].upper()
                     if confirm == 'S':
                         deletar(del_Id)
@@ -63,7 +58,7 @@ def menu():
             elif menu == 'B':
                 try:
                     print('\n' + '-'*50)
-                    bus_Id = input("digite o ID a qual deseja encontrar: ")
+                    bus_Id = int(input("digite o ID a qual deseja encontrar: "))
                     buscar(bus_Id)
                 except:
                     print("cadastro nao encontrado.\nID nao encontrado ou nao existente")
@@ -75,20 +70,29 @@ def cadastrar():
     
     try:
         print('\n' + '-'*50)
+        print('{:=^50}'.format(' Cadastro '))
         
         nome = input("digite o nome: ").strip().capitalize()
-        #email = input("digite o email: ").strip()
-        #telefone = input("digite o telefone: ").strip()
-        #endereco = input("digite o endereco: ").strip().capitalize()
-        #nascimento = input("digite a data de nascimento[dd/mm/aa]: ").strip()
-        #genero = input("digite o genero[M/F: ")[0].strip().upper()
+        email = input("digite o email: ").strip()
+        telefone = input("digite o telefone: ").strip()
+        endereco = input("digite o endereco: ").strip().capitalize()
+        nascimento = input("digite a data de nascimento[dd/mm/aa]: ").strip()
+        genero = input("digite o genero[M/F]: ")[0].strip().upper()
         cpf = input("digite o cpf: ").strip()
 
-        cadastro_data = [nome, cpf]
+        if genero == 'F':
+            genero = 'Feminino'
+
+        elif genero == 'M':
+            genero = 'Masculino'
+
+        #Para textes rapidos descomente esta linha e comente a de baixo/no cadastro pode-se colocar qualquer coisa
+        #cadastro_data = ['Rafael', 'rafael@gmail.com', '(71)900001111', 'rua fernado queiros', '20/12/1966', 'Masculino', '1233.1243-34']
+
+        cadastro_data = [nome, email, telefone, endereco, nascimento, genero, cpf]
         clientes.append(cadastro_data)
 
 
-        #cadastro.inserir(str(Id), nome, email, telefone, endereco, nascimento, genero, cpf)
     except:
         print('[ERROR], porfavor tente novamente')
 
@@ -97,36 +101,38 @@ def cadastrar():
 
 #LISTAGEM DE CLIENTES
 def listar_clientes():
-    for item in clientes:
-        print(f"nome: {item[0]}")
-        print(f"cpf: {item[1]}")
-        print(len(clientes))
+    print('-'*50)
+    if len(clientes) == 0:
+        print("cadastro nao encontrado.\nporfavor cadastre um ID primeiro")
+
+    else:
+        print(f"Clientes Cadastrados: {len(clientes)}")
+        print('-'*50)
+        for pessoa in clientes:
+            
+            print(f"ID: {clientes.index(pessoa)}")
+            print(f"nome: {pessoa[0]}")
+            print(f"genero: {pessoa[5]}")
+            print(f"cpf: {pessoa[6]}")
+            
+            print('-'*50)
 
     
 #EXCLUSAO DE DADOS
-def deletar(Id):
-    del self.nomes[Id]
-    #del self.email[Id]
-    #del self.telefone[Id]
-    #del self.endereco[Id]
-    #del self.nascimento[Id]
-    #del self.genero[Id]
-    del self.cpf[Id]
+def deletar(del_Id):
+    del(clientes[del_Id])
 
 #BUSCA DE DADOS
-def buscar(Id):
-    print(f"ID: {Id}")
-    print(f"nome: {self.nomes.get(Id)}")
-    #print(f"email: {self.email.get(Id)}")
-    #print(f"telefone: {self.telefone.get(Id)}")
-    #print(f"endereco: {self.endereco.get(Id)}")
-    #print(f"nascimento: {self.nascimento.get(Id)}")
-    #print(f"genero: {self.genero.get(Id)}")
-    print(f"CPF: {self.cpf.get(Id)}")
-
-
-#EXEMPLO DE DADO
-#cadastro = Cliente(1, 'Rafael', 'rafael@gmail.com', '(71)900001111', 'rua fernado queiros', '20/12/1966', 'M', '123312434')
+def buscar(bus_Id):
+    print('-'*50)
+    print(f"ID: {bus_Id}")
+    print(f"Nome: {clientes[bus_Id][0]}")
+    print(f"Email: {clientes[bus_Id][1]}")
+    print(f"Telefone: {clientes[bus_Id][2]}")
+    print(f"Endereco: {clientes[bus_Id][3]}")
+    print(f"Data de nascimento: {clientes[bus_Id][4]}")
+    print(f"Genero: {clientes[bus_Id][5]}")
+    print(f"CPF: {clientes[bus_Id][6]}")
 
 
 menu()

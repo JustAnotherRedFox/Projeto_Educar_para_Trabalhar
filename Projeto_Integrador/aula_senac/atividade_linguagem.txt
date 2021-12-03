@@ -1,0 +1,26 @@
+linguagem  |        criador              |     ano
+
+plankalkul   - konrod zuse                   - 1943
+fortran      - john backus                   - 1954
+algol        - john backus e peter nour      - 1958
+cobol        - grace hopper                  - 1959
+simula       -                               - 1964
+basic        -                               - 1964
+smalltalk                                    - 1969
+prolog                                       - 1970
+pascal                                       - 1970
+C                                            - 1972
+ADA                                          - 1979
+C++                                          - 1983
+perl                                         - 1987
+python                                       - 1991
+VB                                           - 1991
+ruby                                         - 1993
+lua                                          - 1993
+java                                         - 1995
+php                                          - 1995
+delphi                                       - 1995
+livescript                                   - 1995
+c#                                           - 2000
+kotlin                                       - 2011
+

@@ -1,0 +1,33 @@
+Programacao de sistema
+
+feriados
+15.11
+18.12 ~ 02.01
+
+cronograma banco de dados
+
+UC1 - 08.11 ~ 02.01 
+UC2 - 06.12 ~ 04.01
+UC3 - 06.01 ~ 26.01
+UC4 - projeto integrador
+
+03/12/2021 - primeiro encontro
+05/01/2022 - segundo encontro
+27/01/2022 - terceiro
+28/01/2022 - quarto
+31/01/2022 - quinto 
+
+cronograma programador de sistema
+
+UC1 - 08.11 ~ 02.12
+UC2 - 06.12 ~ 12.01
+UC3 - 14.01 ~ 26.01
+UC4 - projeto integrador
+
+03/12/2021 - primeiro encontro
+13/01/2022 - segundo encontro
+27/01/2022 - terceiro
+28/01/2022 - quarto
+31/01/2022 - quinto
+
+

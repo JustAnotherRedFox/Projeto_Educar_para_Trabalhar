@@ -1,0 +1,26 @@
+1- pesquidar diferenca entre vetores, matrizes e listas.
+
+vetores e matrizes sao estruturas de dados que permite armazenar varios dados ao mesmo tempo.
+
+vetores(array uni-dimensional) armazena varios valores do mesmo tipo, em uma unica variavel.
+
+matriz(array multi-dimensional) armazena varios vetores do mesmo tipo
+
+listas: possui o propossito de armazenar mais de um valor na mesma variavel porem nao se limitando pelo tipo.
+
+indice : numero dado a cada dado dentro de um array, comecando por 0(zero)
+
+ex.: montar variaveis para calcular 4 das notas de 20 alunos:
+
+vetores dos alunos:
+al1, al2, al3, al4,...
+1     2    3    4  ...
+
+matriz das notas:
+
+	1    2    3     4
+   1   0.1  3.4  2.4   2.2
+   2   2.4  2.5  2.4   5.1
+   3   0.2  9.1  9.5   2.9
+   4   9.3  9.0  7.2   6.2
+   ...

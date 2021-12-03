@@ -1,0 +1,14 @@
+
+nome = literal
+sexo = literal
+endereco = literal
+cidade = literal
+estado = literal
+CEP = numerico inteiro
+telefone = numerico inteiro
+data de nascimento = numerico inteiro
+CPF = literal
+idade = numerico inteiro
+efetivo = logico
+salario = numerico real
+horas trabalhadas por dia = numerico inteiro

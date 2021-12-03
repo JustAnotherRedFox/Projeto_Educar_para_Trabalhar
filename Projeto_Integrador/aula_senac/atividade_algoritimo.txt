@@ -1,0 +1,26 @@
+troca de pneu
+1 - saia do carro
+2 - peque o macaco e o estepe
+3 - coloque o macaco debaixo do carro, e levante o carro
+4 - coloque a chave de roda nos parafuso do carro e gire em sentido anti-horario ate desprende-los
+5 - coloque os parafusos ao lado tire a calota  e entao tire o pneu
+6 - coloque o estepe no lugar do pneu antigo deixando as cavidades dos parafusos alinhadas
+7 - coloque a calota depois os parafusos em seus respectivos lugares e aperte-os girando em sentido horario
+8 - apos fixar os parafusos baixe o macaco, retire-o e coloque a calota no lugar
+
+compra no supermercado
+1 - escrever a lista de compras
+2 - pegar o dinheiro ou o cartao
+3 - selecionar um meio de locomocao
+4 - ir ao mercado
+5 - procurar o item na lista
+6 - se nao estiver riscado continuar procurando
+	7 - colocar no carrinho, risca item pego, voltar para passo 5
+8 - se todos os item estiverem riscado, siga para a fila do caixa
+9 - enquanto tiver alguem em sua frente espere, se a pessoa andar, de um passo a frente
+10 - se o caixa estiver livre va para o caixa
+11 - ponha as mercadorias no caixa
+12 - espere a atendente contabilizar todas as mercadorias
+13 - se for em dinheiro, pague o valor especificado
+14 - se for cartao, insira o cartao na maquina de cartao, quando solicitado digite a senha, e quando solicitato retire o cartao
+15 - embale as compras, saia do mercado, coloque no meio de transporte e volte para casa 

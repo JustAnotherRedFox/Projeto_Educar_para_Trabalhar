@@ -1,0 +1,9 @@
+um sistema para cadastro e calculo de manufatura, por exemplo croche
+minha mae trabalha fazendo croche e ela perde muito tempo para calcular o custo e quanto cobrar do cliente
+emtao seria interessante ter um sistema para calcular:
+
+1 - quanto custa a linha
+2 - quantos pecas pode-se fazer com a linha comprada
+3 - quanto vai gastar com tudo
+4 - o trabalho envolvido
+5 - quanto deve cobrar do cliente

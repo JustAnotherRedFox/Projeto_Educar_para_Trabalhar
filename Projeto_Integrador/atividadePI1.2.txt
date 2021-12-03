@@ -1,0 +1,22 @@
+Os alunos deverão fazer uma reflexão sobre o vídeo, procurando correlações com o tema gerador e problematizando a temática escolhida com os seguintes questionamentos:
+
+
+ 
+
+“Existe demanda para o seu sistema?”
+R: Sim, creio eu que existem varias pessoas nao so no croche mais na area de manufatura, artezanato
+e outras areas que passao por esta dificuldade na hora de calcular o gasto de material e o preco a 
+ser cobrado por seus produtos.
+
+“Existe um problema a ser resolvido?”
+R: Sim, muitas pessoas passam por estes problemas de calculo de gastos, ou talvez gastam muito 
+tempo calculando os gastos e custos, outros acabam perdendo seu precioso tempo, oque  poderia ser
+resolvido por uma automatizacao de calculos para estes casos especificos.
+
+“O seu sistema resolve esse problema?”
+R: Parcialmente, Eu nao posso prever como cada um vai utilizar o programa, ou para oque, mas se 
+utilizado da maneira em que foi construida para, entao ira resolver este problema especifico, mas 
+mesmo que nao possa ser usado para casos especificos sempre da para atualizar, melhorar e aprimorar
+o programa para casos que nao eram previstos inicialmente.
+
+

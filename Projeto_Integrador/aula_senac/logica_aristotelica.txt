@@ -1,0 +1,30 @@
+  				 logica aristotelica
+
+silogismo
+- premica maior ou geral                  - todo homem e mortal
+- premica menor ou particular             - joao e homem
+- conclusao                               - joao e mortal
+
+virtude
+- moral ou etica
+	* comvivencia e coesitencea
+	* vicio por excesso e vicio por falta
+	* coragem - covarde(falta) - temeridade(excesso)
+	* o homem nao nasce com virtude mas com aptidao de desenvolver virtude
+- intelectual
+	* bem pensar
+	*
+
+				logica aritimetica computacional
+
+
+sequencia logica para alcancar um objetivo usando uma linguagem
+organicao coerente das instrucoes - algoritmo
+o computador e estupido mas muito rapido e eficiente
+especificar, organizar e detalhar o algoritimo
+
+                                 semelhancas
+
+ambas as logicas, determiam que o objeto em questao nasce ou e criado vazio  e 'aprende' ao longo do tempo.
+
+

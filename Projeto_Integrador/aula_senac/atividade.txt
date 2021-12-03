@@ -1,0 +1,24 @@
+---------- C -----------
+
+- vantagens
+* portabilidade
+* modularidade
+* simplicidade
+* utiliza pouco recursos
+* de uso geral
+* codigos com tempos de execucao baixos
+
+- aplicacoes mais comuns
+programas que necessitam de mais velosidade como sitemas operacionais e drives
+uso parcial em windows, macOS
+linux
+shells
+BIOS
+
+- caracteristicas
+* estruturada
+* imperativa de propositos gerais
+* tipagem forte
+* linguagem compilada
+* foi criada programas que nescessitao de um acesso mais direto ao hardware
+* case-sensitive

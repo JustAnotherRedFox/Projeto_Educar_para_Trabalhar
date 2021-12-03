@@ -1,0 +1,22 @@
+cons --
+problemas de gerenciamento
+
+pros --
+otimizao do fluxo de informacao maior agilidade
+reducao dos custos operacionais e administrativos
+ganho de produtividade
+maior integridade e veracidade das informacoes
+maior estabilidade e seguranca das informacoes
+
+nessecidades --
+
+class --
+sistema de informacao gerencial SIG
+sistema de informacao estrategicas B.I
+sistema de informacoes comercial negociais
+
+types --
+sistema de informacao gerencial
+sistema de processamento de transacao
+sistema de apoio a decisao
+sistema de apoio a executivo

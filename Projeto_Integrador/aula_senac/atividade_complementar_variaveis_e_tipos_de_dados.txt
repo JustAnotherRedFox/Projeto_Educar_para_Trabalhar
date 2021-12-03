@@ -1,0 +1,21 @@
+		atividade complementar
+
+1. Faça um algoritmo que receba o ano de nascimento de uma pessoa e o ano atual. Calcule e imprima a
+idade dessa pessoa.
+2. Faça um algoritmo que receba o salário de um funcionário, calcule e imprima o valor do imposto de
+renda a ser pago, sabendo que o imposto equivale a 5% do salário.
+3. Faça um algoritmo que receba duas notas de um aluno e seus respectivos pesos, calcule e mostre a
+média ponderada dessas notas.
+Média ponderada = (nota1*peso1) + (nota2*peso2) / (peso1 + peso2)
+4. Faça um algoritmo que receba a idade de uma pessoa em anos, calcule e imprima essa idade em:
+Meses, Dias, Horas e Minutos.
+5. Crie um algoritmo que receba quatro valores quaisquer e mostre a média entre eles e o somatório entre
+eles.
+6. Crie um programa que receba a largura e o comprimento de um lote de terra e mostre a área total
+existente
+7. Escreva um algoritmo que leia o número de horas trabalhadas e o valor que recebe por hora. Calcule o
+salário do funcionário.
+8. Escreva um algoritmo que leia o tempo de duração em segundos de um determinado evento. Mostre o
+valor equivalente em horas e em minutos.
+9. Faça um algoritmo que receba quatro notas de um aluno, calcule e imprima a média aritmética das
+notas

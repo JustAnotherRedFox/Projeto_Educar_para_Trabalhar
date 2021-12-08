@@ -1,0 +1,31 @@
+1. Qual é o objetivo de um Banco de Dados? Cite
+alguns exemplos da utilidade (i.e., aplicações) de
+um banco de dados.
+
+R: organizar e buscar de maneira mais eficiente uma grande quantidade de informacoes, alem de armazena-las de maneira segura e controlar o acesso a estas informacoes
+ex:. documentos, windows explorer,  github, planilhas, etc...
+ 
+2. Quais são as diferenças entre um sistema de
+arquivo convencional e um sistema de banco de
+dados
+
+R: a quantidade de informacoes que podem ser armazenadas
+   a organizacao destas informacoes
+   a seguranca destes dados
+ 
+3.Correlacione os conceitos:
+❑ sistema de banco de dados
+R: SBD, o sistema a qual serve de base para o banco de dados, o SGBD e os usuarios
+
+❑ banco de dados
+R: aonde sao guardados os dados e informacoes
+
+❑ sistema gerenciador de banco de dados
+R: SGBD, o sistema que gerencia o banco de dados e serve de mediador entre o banco de dados e os usuarios
+ 
+4. Quais os componentes de um SBD?
+
+um sistema gerenciados dos bancos de dados
+usuarios
+um banco de dados
+software/hardware

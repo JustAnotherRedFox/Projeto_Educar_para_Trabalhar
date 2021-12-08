@@ -1,0 +1,38 @@
+breno bonfim
+    - integridade
+    - dados
+    - compartilhamento
+    - seguranca
+    - precisao
+    - organizadas
+    - informacoes
+
+eduarda vieira
+    - padronizada
+    - importancia
+    - eficiencia
+    - armazenamento
+    - registradas
+    - arquivos
+    - sistema
+    - seguranca de acesso
+
+andrey soares
+    - facilidade
+    - salvar imformacoes
+    - registros
+    - controle
+    - procurar
+    - evitando erros
+    - armazenamento e busca
+    - integridade das informacoes
+
+palavras em comum
+    - dados
+    - integridade
+    - informacoes
+    - seguranca
+    - armazenar
+    - controle
+    - buscar
+    - sistema

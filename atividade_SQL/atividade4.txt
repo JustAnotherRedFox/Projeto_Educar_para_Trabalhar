@@ -1,0 +1,13 @@
+SQL:
+    postgreeSQL
+    mySQL
+    mariaDB
+    MS SQL
+    Oracle
+
+noSQL:
+    mongoDB
+    rethinkDB
+    couchDB
+    dynamoDB
+

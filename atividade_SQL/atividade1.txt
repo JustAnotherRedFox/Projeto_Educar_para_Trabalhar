@@ -1,0 +1,71 @@
+Refletir sobre a importância de um sistema de banco de dados em um cadastro de clientes.
+
+1 - hoje em dia toda as informacoes que usamos sao salvas em algun tipo de
+banco de dados
+
+por exemplo: redes social, sites de pesquisas, contatos de telefone, etc...
+
+2 - e um repositorio sistemico de informacoes
+
+3 - pela quantidade de informacoes e quantidade de pessoas acaba por ser 
+mais organizado e compacto o gerenciamento de informacoes
+
+4 - a padronizacao do acesso e dos tipos de dados
+
+5 - seguranca, todos os dados sao rastriados
+
+6 - integridade das informacoes
+
+7 - escalabilidade, funciona bem com uma grande quantidade de dados
+
+8 - favorece o trabalho em equipe por permitir que muitas pessoas alterem ou
+tenha acesso ao mesmo banco de dados
+
+9 - permitem qualquer tipo de dado
+
+10(DML) - entender e resolver problemas relacionado a informacoes de forma muito mais rapida
+
+11(DML) - Criar na hora consultas e relatorios que vao ajudar na tomada de decisoes
+
+12(DML) - prevenir problemas. conferir se um sistema esta salvando informacoes como deveria
+
+conposisao de um banco de dados:
+    * arquivos: os arquivos que armazenam os dados 
+    * sistema gerenciador de banco de dados(SGBD): responsavel pela
+        interacao dos arquivos com o usuario, apresentando estas informacoes
+        de maneira mais amigavel, colunas e linhas
+    * linguagem de conversacao: metodo usada para trabalhar com os dados
+        - SQL: structured query language
+
+            = linguagem padronizada =
+                - ISO: International Organization for Stardardization
+                - ANSI: American National Stardards Institute
+
+            = Dialetos =
+                - Transact-SQL: Microsoft   GO  ??  INSERT
+                - PL-SQL: Oracle            ?? DESC INSERT
+
+            = Grupos de comandos =
+                - DLL(Data Definition Language)  |
+                    :Create, ALter, Drop         |DMSs
+                - DCL(Data Control Language)     |
+                    :Grant, Revoke, Deny         |
+
+                - DML(Data Manipulation Language)   |
+                    :Select, Insert, Update, Delete |Publico 
+
+    EXEMPLOS de TRANSACT-SQL(DIALETO MICROSOFT)
+
+- DDL 
+    - create table amigos (nome varchar(100), email varchar(100))
+    - alter table amigos add telefone varchar(10)
+    - drop table amigos
+
+- DCL
+    - grant select on amigos to usuario
+    - revoke select on amigos to usuario
+
+- DML 
+    - select * from amigos
+    - insert into amigos values ('joshua', 'joshua@dab-mail.com', '0000-0000')
+    - update amigos set telefone = '9999-44444' where nome = 'joshua'

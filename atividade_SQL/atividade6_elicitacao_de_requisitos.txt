@@ -1,0 +1,39 @@
+================== documento de requisitos e criar o minimundo. =======================
+
+Os alunos deverão realizar o levantamento de requisitos para um banco de dados de um sistema de cadastro de clientes. Esse levantamento pode ser feito remotamente, com uma empresa que o aluno tenha acesso facilitado ou partir do princípio de uma empresa fictícia.
+
+1 - metodo: empresa ficticia baseada em uma real
+2 - empresa: empresa de automacao(produtos eletronicos, como: balancas, inpressoras, computadores-servidores, sistemas, etc...)
+
+Requisitos:
+ID          | Descrisao                                                                                                                             | Prioridade
+FUNC1       | cadastrar, editar, excluir, buscar, e organizar dados dos produtos da empresa(nome, preco, estoque, especificacao, peso)              | alta
+FUNC2       | cadastrar, editar, excluir, buscar, e organizar dados dos empregados(nome, posicao, genero, idade, salario, carga horaria)            | alta
+FUNC3       | registrar data, horario e cliente a qual o produto foi vendido                                                                        | alta
+FUNC4       | finalizar ou cancelar uma compra feita pelo cliente                                                                                   | alta
+FUNC5       | registrar e organizar as permicoes de cada empregado e cliente perante do sistema                                                     | maxima
+FUNC6       | ter uma interface amigavel com o cliente(agradavel e eficiente)                                                                       | media
+
+Regras Adicionais:
+REGAD1      | calcular descontos, juros e prestacoes aos precos dos produtos                                                                        | media
+REGAD2      | registrar e calcular estoque para impedir furtos internos                                                                             | alta
+REGAD3      | estoques zerados devem ser marcados como tal e nao excluidos do sistema, mas devem ser impedidos de ser vendidos ao usuario           | media
+REGAD4      | salvar um historico de compras e pagamentos, para controlar quem pode comprar.                                                        | media
+
+Requisitos De seguranca:
+REQS1       | controlar as permicoes de acesso ao sistema pelos usuarios, funcionarios e administradores                                            | maxima
+REQS2       | todos os produtos, empregados e clientes cadastrados devem ser estritamente organizados por IDs irrepetiveis                          | maxima
+
+Dados a Serem salvos no Banco de Dados:
+Prod        | id, nome, estoque, preco, especificacao, peso
+empr        | id, nome, posicao(cargo), genero, idade, salario, carga horaria, locais de trabalhos(areas em que ele trabalha dentro da empressa)
+cli         | id, nome, genero, historico de compras, endereco, hora da compra, avaliacao(pagamento pontual, pagamento atrazado, dinheiro, cartao)
+
+Dict:
+FUNC: funcao do sistema, oque ele deve fazer, basico        
+REGAD: regras adicionais, oque deve ser adicionado a ele.
+REQS: requisitos de seguranca
+
+prod: produtos
+empr: empregados
+cli:  clientes

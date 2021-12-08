@@ -1,0 +1,26 @@
+Escolher um banco de dados e apresentar suas características, vantagens e desvantagens e sistemas que utilizam.
+
+O projeto nasceu em 1982, na Universidade de Berkeley, na Califórnia, Estados Unidos, mas a primeira versão só chegou ao mercado em 1989.
+
+entre os que o utizam estao:
+a Apple, o Skype, o Metrô-SP e até a Nasa
+
+Alguns dos recursos específicos do PostgreSQL são: 
+    estrutura para guardar dados georeferenciados PostGIS (um dos módulos do sistema), 
+    indexação por texto, 
+    suporte ao modelos híbrido objeto-relacional, 
+    integridade transacional, 
+    consultas complexas e chaves estrangeiras. 
+    Suporte a tabelas de até 32 TB, campos de até 1 GB e linhas de até 1,6 GB ilimitadas.
+
+As principais vantagens de usar o PostgreSQL estão relacionadas à economia e ao alto desempenho oferecido pelo SGBD. 
+    O banco de dados suporta um intenso fluxo de dados com garantia de estabilidade e segurança, mas isso não o torna extremamente caro.
+
+O Detran do Ceará, por exemplo, migrou para o PostgreSQL e conseguiu economizar 1,7 milhão de reais com licenças e contratação de serviço de suporte técnico extra. 
+O banco de dados também é o oficial do governo do Ceará.
+
+Outras vantagens são a facilidade em gerenciar todos os recursos em um painel de controle simples, 
+e a total integração com a tecnologia cloud computing (que garante que você acesse suas informações quando e onde precisar)
+
+Além disso, o SGBD é extremamente versátil e utiliza linguagens ANSI C, yacc, lex, sh, perl, ams e python, ao longo de suas mais de 571 mil linhas de código. 
+A flexibilidade também está relacionada às plataformas. Pacotes binários pré-construídos têm licenciamento BSD (que garante total liberdade no uso e alteração), e rodam em Linux, Windows, Mac OS X e Solaris.

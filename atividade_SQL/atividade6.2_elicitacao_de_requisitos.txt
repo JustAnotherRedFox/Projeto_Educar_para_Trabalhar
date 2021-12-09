@@ -27,7 +27,7 @@ REQS2       | todos os produtos, empregados e clientes cadastrados devem ser est
 Dados a Serem salvos no Banco de Dados:
 Prod        | id, nome, estoque, preco, especificacao, peso
 empr        | id, nome, posicao(cargo), genero, idade, salario, carga horaria, locais de trabalhos(areas em que ele trabalha dentro da empressa)
-cli         | id, nome, genero, historico de compras, endereco, hora da compra, avaliacao(pagamento pontual, pagamento atrazado, dinheiro, cartao)
+cli         | id, nome, genero, telefone,  historico de compras, endereco, hora da compra, avaliacao(pagamento pontual, pagamento atrazado, dinheiro, cartao)
 
 Dict:
 FUNC: funcao do sistema, oque ele deve fazer, basico        
@@ -37,3 +37,20 @@ REQS: requisitos de seguranca
 prod: produtos
 empr: empregados
 cli:  clientes
+
+Descricao Mini-Mundo:
+    Uma pequena empresa possui uma grande quantidade de produtos para ser vendidos e comprados(500 ~ 1500), que devem ser controlados, registrados e organizados e nao podem ser facilmente manuseados pelos poucos
+ funcionarios
+    Esta mesma empresa possui aproximadamente 100 ~ 150 funcionarios que tambem precissao ser monitorados
+    Cada produto, funcionario e cliente precissa ser organizado por nome, id e caracteristicas proprias para calcular e controlar os custos, despessas e ganhos da empresa
+    Cada produto possui um nome, id, caracteristica e estoque para que um produto que zero estoque nao seja conprado e para que produtos com baixo estoque sejam reestocados
+    cada empregado possui nome, id e caracteristicas para gerenciar oque cada um deve fazer, onde cada um deve estar, a carga horaria, custos da empressa sobre cada um, e que acesso cada um possui
+    Cada cliente possui nome, id e caracteristicas para: 1: nao ser confundido com outros clientes e gravar no historico oque cada um comprou
+                                                         2: para gravar o feedback de cada um para melhorar o sistema
+                                                         3: para definir que permicoes cada um tem
+                                                         4: para facilitar o calculo de lucro que cada um da, e a frequencia de compra
+
+    para manter o controle na taxa de compra e venda, apenas clientes cadastrados podem usufruir os beneficios do sistemas, o cadastro deve ser preenchido com: nome, genero, endereco, telefone.
+
+    tambem e nescessario ter o historico de compra de cada cliente e metodo de pagamento, incluindo a hora e data do pagamento, sendo que um cliente pode comprar varios produtos de um so vez, contando que
+os pagamentos sejam feitos corretamente

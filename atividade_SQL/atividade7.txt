@@ -1,0 +1,10 @@
+Importância da modelagem dos dados para um sistema.
+R: a modelagem nos ajuda a visualizar o sistema, como de ser feito, como deve ser aplicado
+ qual as vantagens e desvantagens, quais os custos envolvidos, 
+
+ para os desenvolvedores: quais os bancos de dados mais proprios para este sistema, 
+ quais tabelas criar, alem de permitir que o programador ja comece a pensar em como montar a 
+ integracao entre o codigo do sistema e o SQL
+
+ tambem permite que todos estes processosos sejam feito de maneira mais facil, rapida e eficiente
+

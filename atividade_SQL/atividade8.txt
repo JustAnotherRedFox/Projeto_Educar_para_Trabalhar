@@ -1,0 +1,24 @@
+1. O que você entende por sistema relacional?
+Diferencie sistema relacional de sistema não
+relacional.
+R: um sistema relacional e aquele que possui uma organizacao de arquivos seguindo uma estrutura especifica
+ ao contrario do sistema relacional o  sistema nao relacional permite que os arquivos sejam salvos por qualquer estrutura necessaria
+
+2. Qual a diferença entre DDL e DML? Crie
+exemplos.
+* o DDL interage com objetos do banco, e principalmente usado para definir a estrutura ou o esquema do banco de dados e possui comandos como: create, alter e drop para manipular estes objetos
+
+* ja o DML interage diretamente com os dados e principalmente usado para manipular e preencher o banco de dados e possui comandos como: insert, update e delete para manipular diretamente estes dados
+
+3. Qual a diferença entre as arquiteturas
+cliente/servidor de duas e três camadas?
+
+* a de duas camadas permite uma comunicacao direto do cliente ao servidor
+  pela base de dados estar no servidor, a aplicacao precisa ser instalada em todos os nos, e toda vez que uma aplicacao
+  for alterada tantos os bancos de dados quantos as aplicacoes clientes precisao ser alteradas
+
+
+* a tres camadas e chamada assim pois possui uma camada intermediaria entre o cliente e o servidor que armazena as 
+  regras de negocio e a logica da aplicacao, permitindo assim uma maior facilidade de manutencao ja que qualquer 
+  alteracao nesta camada intermediaria vai ser aplicada a todas as aplicacoes e banco de dados subsequentes.
+  alem disso o cliente ira ser unicamente responsavel pela interface com o usuario
